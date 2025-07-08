@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.duration .month {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.duration .hour {
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+.modules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
