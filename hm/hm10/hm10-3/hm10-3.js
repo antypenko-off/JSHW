@@ -1,3 +1,18 @@
+/*
+#NKB0tgWIK1G
+
+***PAGINATION
+
+зробити масив на 100 об’єктів та дві кнопки prev next
+
+при завантаженні сторінки з’являються перші 10 об’єктів.
+
+При натисканні next виводяться наступні 10 об’єктів
+
+При натисканні prev виводяться попередні 10 об’єктів
+ */
+
+
 let divs = document.getElementsByTagName('div');
 let counter = 0
 let buttonNext = document.getElementById('next');
